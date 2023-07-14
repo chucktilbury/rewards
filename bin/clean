@@ -3,4 +3,4 @@ if [ ! -z $PROJECT ]; then
     cd $PROJECT
     deactivate
 fi
-rm -rf lib bin/activate* bin/pip* bin/wheel* bin/python*
+rm -rf lib bin/activate* bin/pip* bin/wheel* bin/python* bin/flask* bin/rewards pyvenv.cfg

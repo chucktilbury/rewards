@@ -2,6 +2,7 @@ bin/activate*
 bin/pip*
 bin/wheel*
 bin/python*
+bin/flask*
 lib/
 pyvenv.cfg
 
