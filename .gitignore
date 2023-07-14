@@ -1,4 +1,7 @@
-bin/
+bin/activate*
+bin/pip*
+bin/wheel*
+bin/python*
 lib/
 pyvenv.cfg
 

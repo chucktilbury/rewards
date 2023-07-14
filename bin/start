@@ -1,0 +1,3 @@
+#! /usr/bin/env bash
+export PROJECT=`pwd`
+bash --rcfile $PROJECT/bin/rcfile
