@@ -3,6 +3,7 @@ bin/pip*
 bin/wheel*
 bin/python*
 bin/flask*
+bin/rewards*
 lib/
 pyvenv.cfg
 
