@@ -4,6 +4,7 @@ bin/wheel*
 bin/python*
 bin/flask*
 bin/rewards*
+bin/easy*
 lib/
 pyvenv.cfg
 

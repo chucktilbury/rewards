@@ -1,6 +1,3 @@
 #! /usr/bin/env bash
-if [ ! -z $PROJECT ]; then
-    cd $PROJECT
-    deactivate
-fi
-rm -rf lib bin/activate* bin/pip* bin/wheel* bin/python* bin/flask* bin/rewards pyvenv.cfg
+
+rm -rf lib bin/easy* bin/activate* bin/pip* bin/wheel* bin/python* bin/flask* bin/rewards pyvenv.cfg
