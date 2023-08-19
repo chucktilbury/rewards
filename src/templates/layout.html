@@ -1,0 +1,110 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+    <title>HTML FlexBox Template - Two columns, left menu</title>
+    <meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+    <meta name="description" content="Use this HTML basic website layout template with the navigation menu on the left, the main content at the center, the extra stuff on the right.">
+    <meta name="generator" content="HAPedit 3.1">
+    <!-- <link rel="canonical" href="https://www.w3docs.com/snippets/html/layout_templates/01.html" /> -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="HTML FlexBox Template - Two columns, left menu" />
+    <meta property="og:description" content="Use this HTML basic website layout template with the navigation menu on the left, the main content at the center, the extra stuff on the right." />
+    <meta property="og:image" content="https://www.w3docs.com/build/images/logo-amp.png" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="192" />
+    <meta property="og:image:height" content="192" />
+    <meta property="og:image:alt" content="W3dcos" />
+
+    <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet">
+
+</head>
+<body>
+    <div class="wrapper">
+        <input class="radio" id="one" name="group" type="radio" checked>
+        <input class="radio" id="two" name="group" type="radio">
+        <input class="radio" id="three" name="group" type="radio">
+
+        <div class="tabs">
+          <label class="tab" id="one-tab" for="one">Tab1</label>
+          <label class="tab" id="two-tab" for="two">Tab2</label>
+          <label class="tab" id="three-tab" for="three">Tab3</label>
+        </div>
+
+        <div class="panels">
+          <div class="panel" id="one-panel">
+            <div class="panel-title">Title1</div>
+            <p>Content1</p>
+          </div>
+          <div class="panel" id="two-panel">
+            <div class="panel-title">Title2</div>
+            <p>Content2</p>
+          </div>
+          <div class="panel" id="three-panel">
+            <div class="panel-title">Title3</div>
+            <p>Content3</p>
+          </div>
+        </div>
+      </div>
+
+
+    <div id="container">
+        <div id="header">
+            <h1>Header</h1>
+            <a href="/download/template/1" target="_blank">download this layout</a>
+        </div>
+        <div id="wrapper">
+            <div id="content">
+                <p><strong>1. Main Content</strong></p>
+                <h3>The Ultimate Guide to Flexbox </h3>
+                <p>The Flex Layout module is new layout module in CSS3 made to improve the items align, directions and order
+                    in the container even when they are with dynamic or even unknown size. The prime characteristic of the
+                    flex container is the ability to modify the width or height of its children to fill the available space
+                    in the best possible way on different screen sizes.
+                </p>
+                <p>Flexbox is relatively new, but it enjoys excellent browser support today (nearly 83% of browsers support
+                    Flexbox). Flexbox Layout is used for small application components, whereas CSS Grid Layout Module is
+                    aimed to handle the large scale layouts.
+                </p>
+                <h3>The Two axes of Flexbox</h3>
+                <p>When working with flexbox you need to think in terms of two axes ? the main axis and the cross axis. The
+                    main axis is defined by the flex-direction property, and the cross axis runs perpendicular to it.
+                    Everything we do with flexbox refers back to these axes, so it is worth understanding how they work from
+                    the outset.
+                </p>
+            </div>
+        </div>
+        <div id="navigation">
+            <p><strong>2. Navigation Menu</strong></p>
+            <h3>Styling Flex Container</h3>
+            <ul>
+                <li>flex-direction</li>
+                <li>flex-wrap</li>
+                <li>justify-content</li>
+                <li>align-content</li>
+                <li>align-items</li>
+            </ul>
+            <h3>Designing Flex Items </h3>
+            <ul>
+                <li>order</li>
+                <li>align-self</li>
+                <li>flex-grow</li>
+                <li>flex-shrink</li>
+                <li>flex-basis</li>
+            </ul>
+        </div>
+        <div id="extra">
+            <p><strong>3. Additional Stuff</strong></p>
+            <h3>In this guide you will learn:</h3>
+            <ul>
+                <li>How to use CSS Flexbox to build modern layouts</li>
+                <li>How to align items both vertically and horizontally</li>
+                <li>How to order items within container</li>
+                <li>And more</li>
+            </ul>
+        </div>
+        <div id="footer"><p>Footer</p>
+        </div>
+    </div>
+    <!-- <script type="text/javascript">AddFillerLink("content", "navigation", "extra")</script> -->
+</body>
+</html>
